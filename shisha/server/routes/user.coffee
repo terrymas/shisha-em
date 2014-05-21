@@ -1,17 +1,3 @@
-users = user: [
-	{
-		id: 1
-		user: '王羽飞'
-		password: '901004az'
-		registration: new Date()
-	}
-	{
-		id: 2
-		user: '梁海俊'
-		password: '900416'
-		registration: new Date()
-	}
-]
 require('../connectServer')()
 
 User = require '../model/user'
