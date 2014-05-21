@@ -1,14 +1,28 @@
 <h2>用户列表</h2>
+
+<div class="row">
+	{{#link-to 'admin'}}返回{{/link-to}}
+</div>
+
+<div class="row">
+	<button class="btn btn-primary">修改</button>
+	<button class="btn btn-primary">删除</button>
+</div>
+
+
+
 <table class="table table-striped">
 	<thead>
+		<td>{{input type="checkbox"}}</td>
 		<th>id</th>
-		<th>User</th>
-		<th>Password</th>
-		<th>Registration</th>
+		<th>用户</th>
+		<th>密码</th>
+		<th>注册时间</th>
 	</thead>
 	<tbody>
 		{{#each model}}
 		<tr>
+			<td>{{input type="checkbox"}}</td>
 			<td>{{id}}</td>
 			<td>{{user}}</td>
 			<td>{{password}}</td>

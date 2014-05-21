@@ -28,6 +28,7 @@
     "broccoli-coffee": "~0.1.0",
     "broccoli-less-single": "~0.1.4",
     "mongoose": "~3.8.9",
-    "underscore": "~1.6.0"
+    "underscore": "~1.6.0",
+    "fortune": "~0.2.2"
   }
 }
