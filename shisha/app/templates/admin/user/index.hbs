@@ -1,0 +1,20 @@
+<h2>用户列表</h2>
+<table class="table table-striped">
+	<thead>
+		<th>id</th>
+		<th>User</th>
+		<th>Password</th>
+		<th>Registration</th>
+	</thead>
+	<tbody>
+		{{#each model}}
+		<tr>
+			<td>{{id}}</td>
+			<td>{{user}}</td>
+			<td>{{password}}</td>
+			<td>{{registration}}</td>
+		</tr>
+		{{/each}}
+	</tbody>
+</table>
+
